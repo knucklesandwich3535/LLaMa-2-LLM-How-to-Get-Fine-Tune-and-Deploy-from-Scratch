@@ -539,7 +539,7 @@ I am going to use QLoRA because QLoRA's groundbreaking fusion of 4-bit quantizat
     - Domain-Specific Fine-Tuning: Adjust QLoRA settings and fine-tuning parameters based on the intricacies of the dataset and the specific downstream task to achieve optimal performance.
     - Monitoring and Debugging: Monitor the fine-tuning process for convergence and potential issues. Debug and fine-tune parameters if the model encounters challenges during training or validation.
 
-As an example, @lmassaron (Lucas Massaron)'s Kaggle notebook "Fine-tune Llama 2 for sentiment analysis" is a good way to begin and understand the procedure.
+As an example, [@lmassaron](https://github.com/lmassaron) (Lucas Massaron)'s Kaggle notebook "Fine-tune Llama 2 for sentiment analysis" is a good way to begin and understand the procedure.
 https://www.kaggle.com/code/lucamassaron/fine-tune-llama-2-for-sentiment-analysis/notebook
 
 ---

@@ -412,7 +412,7 @@ This procedure consist of two main parts which are <b>SFT</b> and <b>PEFT</b>. <
 
     PEFT techniques focus on fine-tuning only a fraction of the model's parameters, significantly cutting down computational and storage costs. Recent advancements in PEFT achieve performance comparable to full fine-tuning.
 
----
+    ---
 
 
 - <b>Differentiating SFT and PEFT:</b> 
@@ -465,7 +465,7 @@ This procedure consist of two main parts which are <b>SFT</b> and <b>PEFT</b>. <
         
         PEFT, as an encompassing strategy, leverages tools like LoRA to refine large language models efficiently. LoRA's focus on enhancing weights while preserving pre-trained network parameters helps prevent catastrophic forgetting—a phenomenon where models lose initial training during fine-tuning.
 
-----
+    ----
 
 
 - <b>QLoRA in PEFT:</b> QLoRA (Quantized LoRA) represents a significant advancement in Parameter-Efficient Fine-Tuning (PEFT) and involves a unique approach to weight quantization and adaptation using Low-Rank Adaptation (LoRA).

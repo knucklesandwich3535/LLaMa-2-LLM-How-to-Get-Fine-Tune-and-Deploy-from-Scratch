@@ -579,7 +579,7 @@ https://www.kaggle.com/code/lucamassaron/fine-tune-llama-2-for-sentiment-analysi
 | **Project** | **Information** |
 |---|---|
 | Topic | Llama 2 and Code Llama |
-| Date | |
+| Date | 17.11.2023 |
 | Model Developers | Meta |
 | Writer | Burak Aktaş |
 | Version | 1.0 |

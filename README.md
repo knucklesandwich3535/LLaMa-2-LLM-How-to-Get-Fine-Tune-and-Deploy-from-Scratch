@@ -1,4 +1,4 @@
-# LLaMa 2 LLM How to Get, Fine-Tune and Deploy from Scratch
+# LLaMa 2 LLM How to Get, Fine-Tune with QLoRA and Deploy from Scratch
 
 ## What is a Large Language Model
 Large Language Models (LLMs) are a type of artificial intelligence (AI) model that can generate and understand text in a human-like way. They are trained on massive datasets of text and code, and can be used for a variety of tasks, such as:

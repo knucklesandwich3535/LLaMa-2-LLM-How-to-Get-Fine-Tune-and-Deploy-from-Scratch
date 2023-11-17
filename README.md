@@ -568,7 +568,66 @@ As an example, [@lmassaron](https://github.com/lmassaron) (Lucas Massaron)'s [Ka
 
 ---
 
-## Prompt Engineering for Llama 2
+## Prompt Engineering for Llama 2 Usage
+
+- <b>Understanding Model Capabilities:</b> Given Llama2's inherent capabilities and without fine-tuning, prompt engineering becomes pivotal. Assess the model's strengths and limitations to craft prompts that best leverage its existing knowledge.
+
+- <b>Crafting Effective Prompts:</b> Design prompts tailored to elicit desired responses or actions from Llama2. These prompts should be clear, concise, and focused, guiding the model toward the intended task or response.
+
+- <b>Task-Specific Guidance:</b> Engineer prompts that provide explicit instructions or context for the model to follow. For instance, use specific keywords or phrases that trigger the model's relevant knowledge or generate desired content.
+
+- <b>Experimentation and Optimization:</b> Iteratively refine prompts through experimentation to gauge their effectiveness. Test various prompt structures and styles to determine the most efficient ones for eliciting accurate and relevant responses from Llama2.
+
+- <b>Monitoring Responses:</b> Evaluate Llama2's responses to different prompts, focusing on accuracy, relevance, and coherence. Use this feedback to adjust and optimize your prompt engineering strategies for improved model interactions.
+
+- <b>Balancing Complexity and Simplicity:</b> Maintain a balance between the complexity of prompts and the model's capacity to comprehend them. Craft prompts that are sophisticated enough to guide the model but not overly complex, ensuring the model's ease of understanding.
+
+By focusing on prompt engineering, you can effectively guide Llama2's behavior and responses to better align with the intended tasks or queries, leveraging the model's existing capabilities without the need for fine-tuning.
+
+Here are a few example prompts tailored to elicit specific types of responses from the model:
+
+- <b>Requesting Information:</b>
+
+        [INFO] 
+        Provide a concise explanation of quantum entanglement and its significance in quantum physics.
+
+- <b>Creative Writing Prompt:</b>
+
+        [CREATIVE] 
+        Compose a short fictional story about a time-traveling explorer discovering a hidden civilization in a remote jungle.
+
+- <b>Problem-Solving Query:</b>
+
+        [PROBLEM] 
+        I'm having trouble understanding calculus derivatives. Can you explain the concept using simple language and an example?
+
+- <b>Opinion or Advice Inquiry:</b>
+
+        [ADVICE] 
+        What's your opinion on the future of renewable energy sources like solar and wind power?
+
+- <b>Creative Prompt with Constraints:</b>
+
+        [CREATIVE] 
+        Compose a haiku about the beauty of nature, limiting the poem to seventeen syllables in three lines.
+
+- <b>Contextual Query:</b>
+
+        [CONTEXT]
+        Given recent advancements in AI, discuss the ethical implications and potential benefits of AI-driven healthcare solutions.
+
+These prompts are designed to guide Llama2 toward providing specific types of responses, ranging from informational content to creative writing, problem-solving, opinions, and contextual discussions. Adjusting the prompts' complexity and specificity can influence the depth and relevance of the model's responses within its existing capabilities.
+
+If you need further and more detailed prompt engineering examples, you can refer from below example: 
+
+        [INST]
+        You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe.  Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+        If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+
+        There's a llama in my garden 😱 What should I do? [/INST]
+
+Crafting prompts tailored to fulfill specific objectives significantly enhances the model's performance by guiding and directing its responses, aligning with desired outcomes.
 
 
 ---
